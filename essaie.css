@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f3c9c9;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+.personnage {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+
+}
+.personnages img{
+
+    flex:1;
+    min-width:50px;
+    width: 10%;
+    height: 200px;
+    object-fit: cover;
+}
+.images img:hover{
+    flex:3; 
+    transform: scale(1.1);
+}

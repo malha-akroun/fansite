@@ -7,6 +7,7 @@
 body{
     width: 100%;
     height: 100%;
+    
 }
 header {
     background-color: #d2c4cf;
@@ -40,7 +41,7 @@ main {
     display: grid;
     flex-direction: center;
     align-items: center;
-    padding: 0;
+    padding: 3%;
     background-color: rgb(121, 109, 120);
 }
   
@@ -96,7 +97,11 @@ footer {
     transform: scale(1.1);
     
 }
-frame{
+iframe{
     width: 100vw;
     height: 100vh;
+    
+}
+p{
+    align-items: center;
 }
